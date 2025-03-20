@@ -1,0 +1,5 @@
+import UserRegistrationForm from "./UserRegistrationForm";
+
+export default function App() {
+  return <UserRegistrationForm />;
+}

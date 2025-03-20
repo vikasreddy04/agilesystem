@@ -1,0 +1,83 @@
+/* Center the dashboard */
+.dashboard-container {
+  width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header styling */
+.dashboard-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.dashboard-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.dashboard-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Form container */
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Form inputs */
+.form-container input, .form-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Scrum list container */
+.scrum-list {
+  margin-top: 20px;
+}
+
+.scrum-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.scrum-list li {
+  background: #e9ecef;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.scrum-list li button {
+  background-color: #28a745;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.scrum-list li button:hover {
+  background-color: #218838;
+}

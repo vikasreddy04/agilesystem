@@ -1,0 +1,86 @@
+/* Center the admin dashboard */
+.admin-container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Admin Dashboard Heading */
+.admin-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.add-scrum-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.add-scrum-container h3 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.add-scrum-container input, .add-scrum-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-scrum-container select {
+  cursor: pointer;
+}
+
+/* Create Scrum button */
+.add-scrum-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-scrum-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Scrum Teams List */
+.scrum-teams-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.scrum-teams-container h3 {
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+.scrum-teams-container ul {
+  list-style: none;
+  padding: 0;
+} 
+
+.scrum-teams-container li {
+  background: #e9ecef;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
